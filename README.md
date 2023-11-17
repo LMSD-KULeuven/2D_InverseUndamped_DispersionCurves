@@ -2,9 +2,7 @@
 
 ## Paper
 
-```
-Will be updated.
-```
+This code is discussed in the educational paper entitled: **A guide to numerical dispersion curve calculations: explanation, interpretation and basic Matlab code**, which is available as a preprint on [arxiv](https://arxiv.org/abs/2311.09843).
 
 ## Abstract
 
