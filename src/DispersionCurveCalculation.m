@@ -67,7 +67,7 @@ M = sparse(iL,jL,sM);
 switch scatterer
     case 'mass' 
       mass = m_ratio*mass_UC; 
-      dofM = 3*nodeNrs(floor(end/2),end,floor(end/2));
+      dofM = 3*nodeNrs(ceil(end/2),end,ceil(end/2));
       M(dofM,dofM) = M(dofM,dofM) + mass;
     case 'resonator'
       % Add extra zero row and column to K, M 
@@ -76,7 +76,7 @@ switch scatterer
       % Define mass and stiffness
       mass = m_ratio*mass_UC;
       k_res = (f_res*2*pi)^2*mass; 
-      dofK = 3*nodeNrs(floor(end/2),end,floor(end/2));
+      dofK = 3*nodeNrs(ceil(end/2),end,ceil(end/2));
       n_DOFs = n_DOFs+1;
       dofM = n_DOFs;
       % Add resonator matrices to bare plate UC system matrices
