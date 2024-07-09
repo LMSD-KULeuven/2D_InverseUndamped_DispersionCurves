@@ -1,3 +1,5 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
 references:
   - title: >-
       A guide to numerical dispersion curve calculations: Explanation, interpretation and basic Matlab code
