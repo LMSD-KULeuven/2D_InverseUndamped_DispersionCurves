@@ -1,34 +1,33 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-references:
-  - title: >-
-      A guide to numerical dispersion curve calculations: Explanation, interpretation and basic Matlab code
-    abstract: |
-      Dispersion diagrams play a crucial role in examining, analyzing and designing wave propagation in periodic structures. Despite their ubiquity and current research interest, introductory papers and reference scripting tailored to novel researchers in the field are lacking. This paper aims to address this gap, by presenting a comprehensive educational resource for researchers starting in the field of periodic structures and more specifically on the study of dispersion relations captured by dispersion surfaces or curves in dispersion diagrams. The objective is twofold. A first objective is to give a detailed explanation of dispersion diagrams, with graphical illustrations. Secondly, a documented Matlab code is provided to compute dispersion curves of 3D structures with 2D periodicity using the so-called inverse approach. These dispersion curves are obtained with numerical simulations using the finite element method. The code is written for elastic wave propagation and orthogonal periodicity directions, but can be extended to other types of linear wave propagation, non-orthogonal periodicity directions or 1D and 3D periodicity. The aim of this code is to serve as a starting point for novice researchers in the field, to facilitate their understanding of different aspects of dispersion diagrams and serve as a stepping stone in their future research.
-    type: journalArticle
-    issn: 0888-3270
-    journal: Mechanical Systems and Signal Processing
-    pages: 111393
-    volume: 215
-    url: https://www.sciencedirect.com/science/article/pii/S0888327024002917
-    keywords: 
-      - Bloch’s theorem
-      - Dispersion curves
-      - Dispersion diagrams
-      - Educational code
-      - Irreducible Brillouin contour
-      - Metamaterials
-      - Periodic media
-    authors: 
-      - family-names: Cool
-        given-names: Vanessa
-      - family-names: Deckers
-        given-names: Elke
-      - family-names: Van Belle
-        given-names: Lucas
-      - family-names: Claeys
-        given-names: Claus
-    date-published: 2024-06-01
-    identifiers: 
-      - type: doi
-        value: 10.1016/j.ymssp.2024.111393
+title: >-
+  A guide to numerical dispersion curve calculations: Explanation, interpretation and basic Matlab code
+abstract: |
+  Dispersion diagrams play a crucial role in examining, analyzing and designing wave propagation in periodic structures. Despite their ubiquity and current research interest, introductory papers and reference scripting tailored to novel researchers in the field are lacking. This paper aims to address this gap, by presenting a comprehensive educational resource for researchers starting in the field of periodic structures and more specifically on the study of dispersion relations captured by dispersion surfaces or curves in dispersion diagrams. The objective is twofold. A first objective is to give a detailed explanation of dispersion diagrams, with graphical illustrations. Secondly, a documented Matlab code is provided to compute dispersion curves of 3D structures with 2D periodicity using the so-called inverse approach. These dispersion curves are obtained with numerical simulations using the finite element method. The code is written for elastic wave propagation and orthogonal periodicity directions, but can be extended to other types of linear wave propagation, non-orthogonal periodicity directions or 1D and 3D periodicity. The aim of this code is to serve as a starting point for novice researchers in the field, to facilitate their understanding of different aspects of dispersion diagrams and serve as a stepping stone in their future research.
+type: journalArticle
+issn: 0888-3270
+journal: Mechanical Systems and Signal Processing
+pages: 111393
+volume: 215
+url: https://www.sciencedirect.com/science/article/pii/S0888327024002917
+keywords:
+  - Bloch’s theorem
+  - Dispersion curves
+  - Dispersion diagrams
+  - Educational code
+  - Irreducible Brillouin contour
+  - Metamaterials
+  - Periodic media
+authors:
+  - family-names: Cool
+    given-names: Vanessa
+  - family-names: Deckers
+    given-names: Elke
+  - family-names: Van Belle
+    given-names: Lucas
+  - family-names: Claeys
+    given-names: Claus
+date-published: 2024-06-01
+identifiers:
+  - type: doi
+    value: 10.1016/j.ymssp.2024.111393
