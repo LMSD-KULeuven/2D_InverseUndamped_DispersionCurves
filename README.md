@@ -2,7 +2,26 @@
 
 ## Paper
 
-This code is discussed in the educational paper entitled: **A guide to numerical dispersion curve calculations: explanation, interpretation and basic Matlab code**, which is available as a preprint on [arxiv](https://arxiv.org/abs/2311.09843).
+This code is discussed in the educational paper entitled
+``` 
+A guide to numerical dispersion curve calculations: explanation, interpretation and basic Matlab code
+```
+which is available as a preprint on [arxiv](https://arxiv.org/abs/2311.09843) and [published](https://www.sciencedirect.com/science/article/pii/S0888327024002917) in the journal of Mechanical Systems and Signal Processing. 
+
+```
+@article{cool_guide_2024,
+	title = {A guide to numerical dispersion curve calculations: {Explanation}, interpretation and basic {Matlab} code},
+	volume = {215},
+	issn = {0888-3270},
+	shorttitle = {A guide to numerical dispersion curve calculations},
+	url = {https://www.sciencedirect.com/science/article/pii/S0888327024002917},
+	doi = {10.1016/j.ymssp.2024.111393},
+	journal = {Mechanical Systems and Signal Processing},
+	author = {Cool, Vanessa and Deckers, Elke and Van Belle, Lucas and Claeys, Claus},
+	month = jun,
+	year = {2024},
+}
+```
 
 ## Abstract
 
